@@ -120,7 +120,7 @@ nav {
 /*__________________BODY home__________________*/
 
 
-.img-fluid 
+
 
 .ancho{
   width: 25vw;
@@ -229,14 +229,22 @@ nav {
     .main_container {
       font-size: 2vw; }
     .main_container h5 {
-      font-size: 9px; } }
+      font-size: 9px; }  }
+
+      @media (min-width: 250px) and (max-width: 800px) {
+    .img-portada{
+        width: 200px;
+        align-self: center;
+
+      } }
+
+
+   
   
   .radio {
     display: inline-flex; }
   
-  #novedades {
-    margin-right: 10px;
-    font-size: small; }
+
   
   .btn {
     display: inline-block;
@@ -266,13 +274,10 @@ nav {
     border-top: 1px solid #ffffff;
     height: 2px;
     max-width: 200px;
-    padding: 0;
+    padding: 0
     margin: 1px auto 0 auto; }
 
-    /*__________________Fondo________________*/
-    .fondo-apartadoacord {
-      background-color: #d8dcff;
-    }
+  
 
     /*__________________Contácto______________*/
 
